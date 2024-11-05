@@ -1,0 +1,12 @@
+{
+  "name": "gh-deployment-workflow",
+  "version": "1.0.0",
+  "description": "A simple project to test GitHub Actions deployment to GitHub Pages",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'Building the site...' && mkdir -p public && cp index.html public/"
+  },
+  "author": "AnaelElg10",
+  "license": "MIT",
+  "dependencies": {}
+}
